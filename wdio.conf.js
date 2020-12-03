@@ -154,18 +154,18 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: [
         'spec',
-        ['junit', {
+        /*['junit', {
             outputDir: './report',
             outputFileFormat: function(options) {
                 return `results-${process.env.BROWSERSTACK_COUNTRY}-${new Date().getDate()}-${new Date().getMonth()}-${new Date().getFullYear()}.log`;
             }
-        }],
+        }],*/
         ["browserstack"],
             reporterOptions: {
             browserstack: {
             outputDir: "./report"
            }
-          }
+          },
 
         ],
 

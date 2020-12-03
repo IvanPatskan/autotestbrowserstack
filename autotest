@@ -1,0 +1,5 @@
+#!bin/bash
+for COUNTRY in AU AT BE BR CA QWE CN CL FI FR DE HK JP NG ZA KE
+do
+BROWSERSTACK_USERNAME=michaelmyronyshy1 BROWSERSTACK_ACCESS_KEY=jjMLXEwTNYve7siMpdsJ BROWSERSTACK_COUNTRY=$COUNTRY  npx wdio wdio.conf.js || true
+done

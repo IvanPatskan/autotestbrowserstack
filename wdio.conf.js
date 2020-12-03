@@ -161,14 +161,14 @@ exports.config = {
             }
         }],*/
         ["browserstack"],
-            reporterOptions: {
+            
+
+        ],
+        reporterOptions: {
             browserstack: {
             outputDir: "./report"
            }
           },
-
-        ],
-
 
     //
     // If you are using Cucumber you need to specify the location of your step definitions.

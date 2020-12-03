@@ -153,7 +153,7 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: [
-        'spec',"browserstack"
+        'spec',"browserstack",
         ['junit', {
             outputDir: './report',
             outputFileFormat: function(options) {

@@ -166,7 +166,7 @@ exports.config = {
         ],
         reporterOptions: {
             browserstack: {
-            outputDir: "./browserstack-reports"
+            outputDir: "./"
            }
           },
 
